@@ -57,6 +57,7 @@ m4/pkg.m4
 
 # documentation generated files
 doc/*.stamp
+doc/*.bak
 doc/html
 doc/xml
 doc/rsvg-decl-list.txt
@@ -70,7 +71,3 @@ doc/rsvg.interfaces
 doc/rsvg.prerequisites
 doc/rsvg.signals
 doc/version.xml
-
-# windows build fragments
-*.props
-*.vsprops

@@ -1,6 +1,12 @@
 
 2018-04-10  Andreas Grapentin  <andreas@grapentin.org>
 
+	* build: dropping win32 build fragments
+	* configure.ac: likewise
+	* Makefile.am: likewise
+
+2018-04-10  Andreas Grapentin  <andreas@grapentin.org>
+
 	* configure.ac: moved aux files to build-aux
 	* .gitignore: cleanup and structure
 

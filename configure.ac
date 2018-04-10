@@ -298,17 +298,6 @@ tests/Makefile
 tools/Makefile
 doc/Makefile
 doc/version.xml
-config.h.win32
-build/Makefile
-build/win32/Makefile
-build/win32/vs9/Makefile
-build/win32/vs9/rsvg-version-paths.vsprops
-build/win32/vs10/Makefile
-build/win32/vs10/rsvg-version-paths.props
-build/win32/vs11/Makefile
-build/win32/vs12/Makefile
-build/win32/vs14/Makefile
-build/win32/vs15/Makefile
 ])
 
 AC_CONFIG_FILES([librsvg-${RSVG_API_VERSION}.pc:librsvg.pc.in],[],[RSVG_API_VERSION=$RSVG_API_VERSION])
@@ -317,15 +306,11 @@ AC_CONFIG_FILES([librsvg-${RSVG_API_VERSION}-uninstalled.pc:librsvg-uninstalled.
 AC_OUTPUT
 
 dnl =============================================================================================
-echo "
-librsvg-$VERSION
-
-	prefix:                         ${prefix}
-	compiler:                       ${CC}
-	
-	Build introspectable bindings:  ${found_introspection}
-	Build Vala bindings:            ${enable_vala}
-	Build GdkPixbuf loader:         ${enable_pixbuf_loader}
-        GTK+ $GTK3_REQUIRED or later:           ${have_gtk_3}
-	Build miscellaneous tools:      ${build_misc_tools}
-"
+printf '\nlibrsvg-og-%s\n\n' "$VERSION"
+printf '    %-40s : %s\n'   'prefix' "$prefix"
+printf '    %-40s : %s\n\n' 'compiler' "$CC"
+printf '    %-40s : %s\n'   'Build introspectable bindings' "$found_introspection"
+printf '    %-40s : %s\n'   'Build Vala bindings' "$enable_vala"
+printf '    %-40s : %s\n'   'Build GdkPixbuf loader' "$enable_pixbuf_loader"
+printf '    %-40s : %s\n'   "GTK+ $GTK3_REQUIRED or later" "$have_gtk_3"
+printf '    %-40s : %s\n\n' 'Build miscellaneous tools' "$build_misc_tools"
