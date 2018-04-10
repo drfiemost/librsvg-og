@@ -1,3 +1,15 @@
+
+2018-04-10  Andreas Grapentin  <andreas@grapentin.org>
+
+	* ChangeLog: restored from ChangeLog.old
+	* Makefile.am: dropped auto-generation of ChangeLog from git history
+
+	* code_of_conduct.md: removed.
+	* MAINTAINERS: removed
+	* AUTHORS: regenerated from git history
+	* README: updated
+	* NEWS.old: moved from NEWS file, release history will restart.
+
 2009-06-01  Andre Klapper  <a9016009@gmx.de>
 
 	* gtk-engine/svg-render.c:

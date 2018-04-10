@@ -1,106 +1,109 @@
-This is an incomplete list of people who have worked on librsvg.  If you are missing here,
-please send mail to the maintainers!
+This is an incomplete list of people who have worked on librsvg.
+If you are missing here, please send mail to the maintainers!
 
-Adam Sampson
-Adam Tkac
-Adrian Bunk
-Alex Duggan
-Alex Larsson
-Alexander Larsson
-Alexandre Rostovtsev
-Alexey Pavlov
-Anders Carlsson
-Andre Klapper
-Andrea Griffini
-Angus Gratton
-Antoine Jacoutot
-Bastien Nocera
-Behdad Esfahbod
-Benjamin Otte <otte@redhat.com>
-Bertram Felgenhauer
-Bruno Girin
-Caleb Michael Moore
-Carl Worth
-Carlos Garnacho
-Christian Fredrik Kalager Schaller
-Christian Persch
-Christian Schaller
-Chun-wei Fan <fanchunwei@src.gnome.org>
-Colin Walters
-Craig Keogh
-Daniel Drake
-Darin Adler
-Didier Barvaux
-Dodji Seketeli
-Dom Lachowicz
-Dominic Lachowicz
-Edward Sheldrake
-Emilio Pozuelo Monfort
-Emmanuel Pacaud
-Evan Nemerson
-Fatih Demir
-Federico Mena Quintero <federico@gnome.org>
-Felix Riemann
-Florian Müllner
-Gediminas Paulauskas
-Germán Poo-Caamaño
-Glynn Foster
-Gregory Leblanc
-Hagen Schink
-Hans Breuer
-Hans Nieser
-Hans de Goede
-Hiroyuki Ikezoe
-Isak
-jacob berkman
-Jan Arne Petersen
-Jasper Lievisse Adriaanse
-Jasper St. Pierre
-Javier Jardón
-Jean-Baptiste Lallement
-John Ralls
-Jonathan Blandford
-Josselin Mouette
-KUROSAWA Takeshi
-Kjartan Maraas
-Kouhei Sutou
-Kurosawa Takeshi
-liucougar
-LRN
-Laszlo Peter
-Luis Menina
-Maarten Bosmans
-Maciej Piechotka
-Martin von Gagern
-Massimo <sixtysix@inwind.it>
-Matthias Clasen
-Menner
-Menner <mix@gmx.org>
-Michael Meeks
-Nicholas Beeuwsaert
-Olav Vitters
-Owen Taylor
-Øyvind Kolås
-Paolo Borelli
-Philip Withnall
-Ramiro Estrugo
-Raph Levien <raph@acm.org>
-Ray Strode
-Richard Hughes
-Robert Ancell
-Robert Staudinger
-Robin Slomkowski
-Ron Hopper
-Ross Burton
-Simon Budig
-Suzuki Toshiya
-Sven Neumann
-Thomas Andersen
-Thomas Vander Stichele
-Tom Paker
-Tor Lillqvist
-Vincent Penquerc'h
-Vincent Untz
-William Hua
-William Lachance
-Wouter Bolsterlee
+
+Adam Sampson  <ats-gnomebugs@offog.org>
+Adam Tkac  <atkac@redhat.com>
+Adrian Bunk  <bunk@stusta.de>
+Alex Duggan  <aldug@astrolinux.com>
+Alex Larsson  <alexl@redhat.com>
+Alexander Larsson  <alexl@redhat.com>
+Alexandre Rostovtsev  <tetromino@gentoo.org>
+Alexey Pavlov  <alexey.pawlow@gmail.com>
+Anders Carlsson  <andersca@gnu.org>
+Andre Klapper  <a9016009@gmx.de>
+Andrea Griffini  <agriff@tin.it>
+Angus Gratton  <angus.gratton@anu.edu.au>
+Antoine Jacoutot  <ajacoutot@gnome.org>
+Bastien Nocera  <hadess@hadess.net>
+Behdad Esfahbod  <behdad@behdad.org>
+Benjamin Otte  <otte@redhat.com>
+Bertram Felgenhauer  <bertram.felgenhauer@googlemail.com>
+Bruno Girin  <brunogirin@gmail.com>
+Caleb Michael Moore  <cmoore@src.gnome.org>
+Carl Worth  <cworth@cworth.org>
+Carlos Garnacho  <carlosg@gnome.org>
+Christian Fredrik Kalager Schaller  <uraeus@src.gnome.org>
+Christian Persch  <chpe@gnome.org>
+Christian Schaller  <Uraeus@gnome.org>
+Chun-wei Fan  <fanchunwei@src.gnome.org>
+Colin Walters  <walters@verbum.org>
+Craig Keogh  <cskeogh@adam.com.au>
+Daniel Drake  <dsd@laptop.org>
+Darin Adler  <darin@src.gnome.org>
+Didier Barvaux  <didier-bugzilla@barvaux.org>
+Dodji Seketeli  <dodji@gnome.org>
+Dom Lachowicz  <cinamod@hotmail.com>
+Dominic Lachowicz  <domlachowicz@gmail.com>
+Edward Sheldrake  <ejsheldrake@gmail.com>
+Emilio Pozuelo Monfort  <pochu27@gmail.com>
+Emmanuel Pacaud  <emmanuel.pacaud@lapp.in2p3.fr>
+Emmanuele Bassi  <ebassi@gnome.org>
+Evan Nemerson  <evan@coeus-group.com>
+Fatih Demir  <kabalak@src.gnome.org>
+Federico Mena Quintero  <federico.mena@gmail.com>
+Felix Riemann  <friemann@gnome.org>
+Florian Müllner  <fmuellner@gnome.org>
+Gediminas Paulauskas  <menesis@delfi.lt>
+Germán Poo-Caamaño  <gpoo@gnome.org>
+Glynn Foster  <glynn.foster@sun.com>
+Gregory Leblanc  <gleblanc@linuxweasel.com>
+Hagen Schink  <troja84@gmail.com>
+Hans Breuer  <hans@breuer.org>
+Hans Nieser  <hans@nieser.nl>
+Hans de Goede  <jwrdegoede@fedoraproject.org>
+Hiroyuki Ikezoe  <hiikezoe@gnome.org>
+Isak  <isaklindbeck@hotmail.com>
+Jan Arne Petersen  <jpetersen@jpetersen.org>
+Jacob Berkman  <jacob@ximian.com>
+Jasper Lievisse Adriaanse  <jasper@humppa.nl>
+Jasper St. Pierre  <jstpierre@mecheye.net>
+Javier Jardón  <javierjc1982@gmail.com>
+Jean-Baptiste Lallement  <jean-baptiste@canonical.com>
+Jeremy Bicha  <jbicha@ubuntu.com>
+John Ralls  <jralls@ceridwen.us>
+Jonathan Blandford  <jrb@src.gnome.org>
+Josselin Mouette  <joss@malsain.org>
+KUROSAWA Takeshi  <taken.spc@gmail.com>
+Kjartan Maraas  <kmaraas@gnome.org>
+Kouhei Sutou  <kou@cozmixng.org>
+Kurosawa Takeshi  <taken.spc@gmail.com>
+liucougar  <liucougar@gmail.com>
+LRN  <lrn1986@gmail.com>
+Laszlo Peter  <laca@ireland.sun.com>
+Lovell Fuller  <github@lovell.info>
+Luis Menina  <liberforce@freeside.fr>
+Maarten Bosmans  <mkbosmans@gmail.com>
+Maciej Piechotka  <uzytkownik2@gmail.com>
+Martin von Gagern  <Martin.vGagern@gmx.net>
+Massimo  <sixtysix@inwind.it>
+Matthias Clasen  <mclasen@redhat.com>
+Menner  <mik@gmx.org>
+Michael Meeks  <michael@ximian.com>
+Nicholas Beeuwsaert  <nick.beeuwsaert@gmail.com>
+Olav Vitters  <olav@vitters.nl>
+Owen Taylor  <otaylor@redhat.com>
+Øyvind Kolås  <pippin@gimp.org>
+Paolo Borelli  <pborelli@gnome.org>
+Philip Withnall  <philip.withnall@collabora.co.uk>
+Ramiro Estrugo  <ramiro@src.gnome.org>
+Ray Strode  <rstrode@redhat.com>
+Richard Hughes  <richard@hughsie.com>
+Robert Ancell  <robert.ancell@canonical.com>
+Robert Staudinger  <robert.staudinger@gmail.com>
+Robin Slomkowski  <rslomkow@src.gnome.org>
+Ron Hopper  <ron@boxcast.com>
+Ross Burton  <ross@burtonini.com>
+Simon Budig  <simon@gimp.org>
+Suzuki Toshiya  <mpsuzuki@hiroshima-u.ac.jp>
+Sven Neumann  <neo@src.gnome.org>
+Thomas Andersen  <phomes@gmail.com>
+Thomas Vander Stichele  <thomasvs@src.gnome.org>
+Ting-Wei Lan  <lantw44@gmail.com>
+Tom Paker  <palfrey@tevp.net>
+Tor Lillqvist  <tml@iki.fi>
+Vincent Penquerc'h  <vincent.penquerch@collabora.co.uk>
+Vincent Untz  <vuntz@gnome.org>
+William Hua  <huaw@mcmaster.ca>
+William Lachance  <wrlach@gmail.com>
+Wouter Bolsterlee  <uws+gnome@xs4all.nl>
