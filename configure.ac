@@ -12,10 +12,7 @@ AC_CONFIG_SRCDIR([rsvg.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_INIT_AUTOMAKE([1.9 foreign no-dist-gzip dist-xz])
-m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
-
-AM_MAINTAINER_MODE([enable])
+AM_INIT_AUTOMAKE([-Wall gnu])
 
 dnl ===========================================================================
 dnl API versioning
@@ -55,6 +52,7 @@ AC_ISC_POSIX
 AC_PROG_CC
 AC_PROG_CPP
 AC_PROG_AWK
+AM_PROG_AR
 AC_STDC_HEADERS
 AM_PROG_CC_C_O
 
