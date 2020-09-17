@@ -4,7 +4,7 @@ librsvg-og
 This is librsvg-og (read: librsvg "old gen") - A small library to render
 Scalable Vector Graphics (SVG). It has been created as a fork of the original
 librsvg of version 2.40.20, which was the last stable release untainted by rust
-additions. librsvg-ng performs the same task as the original librsvg, to render
+additions. librsvg-og performs the same task as the original librsvg, to render
 SVG files to Cairo surfaces, and should be a drop-in replacement for librsvg,
 assuming no API-breaking changes by upstream.
 
