@@ -75,6 +75,7 @@ typedef struct RsvgHandlePrivate RsvgHandlePrivate;
 typedef struct _RsvgHandleClass RsvgHandleClass;
 typedef struct _RsvgDimensionData RsvgDimensionData;
 typedef struct _RsvgPositionData RsvgPositionData;
+typedef struct _RsvgRectangle RsvgRectangle;
 
 /**
  * RsvgHandleClass:
@@ -125,6 +126,13 @@ struct _RsvgPositionData {
     int y;
 };
 
+struct _RsvgRectangle {
+    double x;
+    double y;
+    double width;
+    double height;
+};
+
 void rsvg_cleanup (void);
 
 void rsvg_set_default_dpi	(double dpi);
@@ -143,12 +151,45 @@ GdkPixbuf   *rsvg_handle_get_pixbuf_sub (RsvgHandle * handle, const char *id);
 const char  *rsvg_handle_get_base_uri (RsvgHandle * handle);
 void         rsvg_handle_set_base_uri (RsvgHandle * handle, const char *base_uri);
 
+RSVG_DEPRECATED_FOR(rsvg_handle_get_intrinsic_size_in_pixels)
 void rsvg_handle_get_dimensions (RsvgHandle * handle, RsvgDimensionData * dimension_data);
 
+RSVG_DEPRECATED_FOR(rsvg_handle_get_geometry_for_layer)
 gboolean rsvg_handle_get_dimensions_sub (RsvgHandle * handle, RsvgDimensionData * dimension_data, const char *id);
+
+RSVG_DEPRECATED_FOR(rsvg_handle_get_geometry_for_layer)
 gboolean rsvg_handle_get_position_sub (RsvgHandle * handle, RsvgPositionData * position_data, const char *id);
 
 gboolean rsvg_handle_has_sub (RsvgHandle * handle, const char *id);
+
+typedef enum {
+    RSVG_UNIT_PERCENT,
+    RSVG_UNIT_PX,
+    RSVG_UNIT_EM,
+    RSVG_UNIT_EX,
+    RSVG_UNIT_IN,
+    RSVG_UNIT_CM,
+    RSVG_UNIT_MM,
+    RSVG_UNIT_PT,
+    RSVG_UNIT_PC
+} RsvgUnit;
+
+typedef struct {
+    double   length;
+    RsvgUnit unit;
+} RsvgLength;
+
+void rsvg_handle_get_intrinsic_dimensions (RsvgHandle *handle,
+                                           gboolean   *out_has_width,
+                                           RsvgLength *out_width,
+                                           gboolean   *out_has_height,
+                                           RsvgLength *out_height,
+                                           gboolean   *out_has_viewbox,
+                                           RsvgRectangle *out_viewbox);
+
+gboolean rsvg_handle_get_intrinsic_size_in_pixels (RsvgHandle *handle,
+                                                   gdouble    *out_width,
+                                                   gdouble    *out_height);
 
 /* GIO APIs */
 
