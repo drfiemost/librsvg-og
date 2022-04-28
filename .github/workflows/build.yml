@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: deps
+      run: sudo apt-get install gtk-doc-tools
     - uses: actions/checkout@v3
     - name: bootstrap
       run: ./autogen.sh
