@@ -18,7 +18,7 @@ jobs:
     - name: bootstrap
       run: ./autogen.sh
     - name: configure
-      run: export GDK_PIXBUF_QUERYLOADERS="${libdir}/gtk-2.0/version/loaders" ./configure
+      run: export GDK_PIXBUF_QUERYLOADERS="/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders" ./configure
     - name: make
       run: make
     - name: make distcheck
