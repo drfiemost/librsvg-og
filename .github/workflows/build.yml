@@ -14,13 +14,9 @@ jobs:
     steps:
     - name: deps
       run: sudo apt-get install gtk-doc-tools gobject-introspection libcroco3-dev libpango1.0-dev libgtk-3-dev
-    - name: check
-      run: find /usr/lib -name gdk-pixbuf-query-loaders
     - uses: actions/checkout@v3
     - name: bootstrap
-      run: ./autogen.sh
-    - name: configure
-      run: export GDK_PIXBUF_QUERYLOADERS="/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders" ./configure
+      run: export GDK_PIXBUF_QUERYLOADERS="/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders" ./autogen.sh
     - name: make
       run: make
     - name: make distcheck
