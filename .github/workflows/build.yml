@@ -20,4 +20,4 @@ jobs:
     - name: make
       run: make
     - name: make distcheck
-      run: make distcheck
+      run: GDK_PIXBUF_QUERYLOADERS="/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders" make distcheck
