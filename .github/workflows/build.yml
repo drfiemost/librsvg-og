@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: deps
-      run: sudo apt-get install gtk-doc-tools gobject-introspection libcroco3-dev libpango1.0-dev libgtk-3-dev gobject-introspection
+      run: sudo apt-get install gtk-doc-tools gobject-introspection libcroco3-dev libpango1.0-dev libgtk-3-dev gobject-introspection libgirepository1.0-dev
     - uses: actions/checkout@v3
     - name: bootstrap
       run: GDK_PIXBUF_QUERYLOADERS="/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders" ./autogen.sh
