@@ -13,12 +13,12 @@ jobs:
 
     steps:
     - name: deps
-      run: sudo apt-get install gtk-doc-tools gobject-introspection libcroco3-dev libpango1.0-dev libgtk-3-dev libgdk-pixbuf2.0-dev
+      run: sudo apt-get install gtk-doc-tools gobject-introspection libcroco3-dev libpango1.0-dev libgtk-3-dev
     - uses: actions/checkout@v3
     - name: bootstrap
       run: ./autogen.sh
     - name: configure
-      run: ./configure
+      run: export GDK_PIXBUF_QUERYLOADERS="${libdir}/gtk-2.0/version/loaders" ./configure
     - name: make
       run: make
     - name: make distcheck
